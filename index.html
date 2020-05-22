@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey|Form</title>
+    <meta cherset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h1 id="title">Smartphone Survey Form</h1>
+<p id="description">Thank you for taking your valuable time to help us</p>
+<div id="container">
+ <form id="survey-form">
+    <label id="name-label" for="name">Name</label><br><br>
+    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+    <br><br>
+    <label id="email-label" for="email">Email</label><br><br>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+    <br><br>
+  <label id="number-label" for="number">Age</label><br><br>
+  <input type="number" id="number" name="age"  placeholder="Enter Your Age" min="14" max="80" required>
+  <br><br>
+  <label id="number-label" for="phones">Smartphone Brand</label><br><br>
+    <select id="dropdown">
+     <option value="1">Nothing</option>
+     <option value="2">OnePlus</option>
+     <option value="3">Xiaomi</option>
+     <option value="4">Samsung</option>
+     <option value="5">Nokia</option>
+     <option value="6">RealMe</option>
+     <option value="7">Motorola</option>
+     <option value="8">Oppo</option>
+     <option value="9">Huawei</option>
+    </select>
+    <br><br>
+  <label id="number-label" for="budget">Budget</label><br><br>
+      <input type="radio" name="budget" value="1">10k₹-20k₹</input>
+      <input type="radio" name="budget" value="2">20k₹-30k₹</input>
+      <input type="radio" name="budget" value="3">30k₹-50k₹</input>
+<br><br>
+
+<label id="number-label" for="features">Main Features</label><br><br>
+  <input type="checkbox" name="features" value="1">Best Camera</input><br>
+  <input type="checkbox" name="features" value="2">Good Quality Display</input><br>
+  <input type="checkbox"name="features" value="3">Gaming</input><br>
+  <input type="checkbox" name="features" value="4">High Capacity Battery</input><br><br>
+
+  <label id="number-label" for="Comment">Comment</label><br><br>
+  <textarea id="comment" name="comment" rows="4" cols="40">Put your comment here</textarea><br>
+  <input id="submit" type="submit" value="Submit">
+
+  </form>
+</div> 
+</body>
+</html>
